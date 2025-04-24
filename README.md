@@ -70,3 +70,18 @@ The client follows the Layered React Structure (LRS) pattern following this arti
 4. **Services Layer**: API communication and data transformation
 5. **Types Layer**: TypeScript interfaces and types
 
+## Server Architecture (MVC)
+
+The server follows a modified MVC (Model-View-Controller) architecture with Repository pattern:
+
+1. **Models Layer**: Defines data structures using Sequelize ORM
+2. **Controllers Layer**: Handles HTTP requests and responses
+3. **Services Layer**: Contains business logic and rules (like purchase time restrictions)
+4. **Repositories Layer**: Abstracts database operations and data acces
+5. **Routes Layer**: Defines API endpoints and connects them to controllers
+
+## Desing
+
+For colors and design I used this palette from Coolors generator https://coolors.co/visualizer/6d545d-756d54-8b9556-abb557-bed558 and Material UI components.
+
+And last but not least, I put a lot of love in this project ❤️✨💫
