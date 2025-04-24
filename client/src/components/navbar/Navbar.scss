@@ -1,0 +1,39 @@
+.navbar {
+  background-color: #ABB557 !important;
+
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    .title {
+      color: white;
+      margin: 15px 0;
+      font-weight: bolder;
+    }
+
+    .purchase-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .text {
+        color: white;
+        font-size: 1.2rem;
+      }
+
+      .count {
+        color: #756D54;
+        font-size: 1.2rem;
+        font-weight: bold;
+        background-color: #BED558;
+        padding: 8px 16px;
+        border-radius: 8px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        display: inline-block;
+        min-width: 30px;
+        text-align: center;
+      }
+    }
+  }
+}

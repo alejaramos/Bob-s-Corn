@@ -1,0 +1,22 @@
+.shop-button {
+    background-color: #BED558 !important;
+    color: #756D54 !important;
+    font-weight: bold !important;
+    padding: 10px 24px !important;
+    font-size: 1rem !important;
+    border-radius: 8px !important;
+    text-transform: none !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+    transition: all 0.3s ease !important;
+
+    &:hover {
+      background-color: #ABB557 !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25) !important;
+    }
+
+    &:active {
+      transform: translateY(1px) !important;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+    }
+  }

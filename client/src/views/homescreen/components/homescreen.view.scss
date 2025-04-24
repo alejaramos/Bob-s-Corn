@@ -1,0 +1,27 @@
+.homescreen-container {
+  background-color: #756D54;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+    .image-and-button-container {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      justify-content: center;
+
+      .image-container {
+        .corn-image {
+          max-width: 100%;
+          width: 300px;
+        }
+      }
+    }
+  }
+}
