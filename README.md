@@ -3,12 +3,6 @@
 A full-stack application for managing corn purchases with this requirement :
 You are a very fair farmer and your policy is to sell at most 1 corn per client per minute.
 
-
-## Project Overview
-
-Is been used a Layered React Structure (LRS) on the frontend folder strcuture and MVC for the backend database.
-
-
 ## Setup and Installation
 
 ### Prerequisites
