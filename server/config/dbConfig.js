@@ -1,30 +1,25 @@
-const { Sequelize } = require('sequelize');
-const path = require('path');
-require('dotenv').config();
+const { Sequelize } = require("sequelize");
+require("dotenv").config();
 
-const dbPath = process.env.DB_PATH || path.join(__dirname, '../database.sqlite');
+const dbPath = process.env.DB_PATH;
 
 const sequelize = new Sequelize({
-  dialect: 'sqlite',
+  dialect: "sqlite",
   storage: dbPath,
 });
-
-
 
 const initializeDatabase = async () => {
   try {
     await sequelize.sync({ alter: true });
-    console.log('Database initialized');
+    console.log("Database initialized");
     return true;
   } catch (error) {
-    console.error('Error initializing database:', error);
+    console.error("Error initializing database:", error);
     return false;
   }
 };
 
-
-
 module.exports = {
   sequelize,
-  initializeDatabase
+  initializeDatabase,
 };

@@ -1,22 +1,18 @@
-.shop-button {
-    background-color: #BED558 !important;
-    color: #756D54 !important;
-    font-weight: bold !important;
-    padding: 10px 24px !important;
-    font-size: 1rem !important;
-    border-radius: 8px !important;
-    text-transform: none !important;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
-    transition: all 0.3s ease !important;
+.MuiButton-root.shop-button {
+  background-color: #BED558;
+  color: #756D54;
+  font-weight: bolder;
+  padding: 10px 24px;
+  border-radius: 8px;
 
-    &:hover {
-      background-color: #ABB557 !important;
-      transform: translateY(-2px) !important;
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25) !important;
-    }
-
-    &:active {
-      transform: translateY(1px) !important;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
-    }
+  &:hover {
+    background-color: #ABB557;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
   }
+
+  &:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+}

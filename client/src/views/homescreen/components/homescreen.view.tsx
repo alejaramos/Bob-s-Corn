@@ -4,7 +4,9 @@ import Navbar from '../../../components/navbar/Navbar.tsx';
 import './homescreen.view.scss';
 import cornImage from '../../../assets/cornImage.png';
 
+
 function HomescreenView() {
+
   return (
     <div className="homescreen-container">
       <Navbar />
