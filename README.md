@@ -57,8 +57,8 @@ npm start
 
 This will start:
 - The React client on http://localhost:3000
-- The Express server on http://localhost:5000
-- Swagger API documentation on http://localhost:5000/api-docs
+- The Express server on http://localhost:8080
+- Swagger API documentation on http://localhost:8080/api-docs
 
 ## Client Architecture (LRS)
 
