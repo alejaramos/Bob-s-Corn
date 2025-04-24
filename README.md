@@ -32,7 +32,7 @@ You are a very fair farmer and your policy is to sell at most 1 corn per client 
 
 3. Create a `.env` file in the server directory:
    ```
-   PORT=5000
+   PORT=8080
    FRONTEND_URL=http://localhost:3000
    DB_PATH=./database.sqlite
    ```
