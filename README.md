@@ -14,7 +14,7 @@ You are a very fair farmer and your policy is to sell at most 1 corn per client 
 1. Clone the repository:
    ```bash
    git clone git@github.com:alejaramos/Bob-s-Corn.git
-   cd bob-s-corn
+   cd Bob-s-Corn
    ```
 
 2. Install dependencies for both client and server:
