@@ -30,11 +30,9 @@ You are a very fair farmer and your policy is to sell at most 1 corn per client 
    cd ..
    ```
 
-3. Create a `.env` file in the server directory:
-   ```
-   PORT=8080
-   FRONTEND_URL=http://localhost:3000
-   DB_PATH=./database.sqlite
+3. Run this command within the server directory:
+   ```bash
+   cp template.env .env
    ```
 
 ### Running the Application
