@@ -31,6 +31,12 @@ You are a very fair farmer and your policy is to sell at most 1 corn per client 
    ```
 
 3. Run this command within the server directory:
+
+   ```bash
+   cp template.env .env
+   ```
+4. Run this command within the client directory:
+
    ```bash
    cp template.env .env
    ```

@@ -1,9 +1,8 @@
 import { PurchaseResponse } from '../types/purchaseTypesAnswr.tsx';
-import apiConfig from '../config/api.config.ts';
 
 export const purchaseCorn = async (clientUuId: string, quantity: number = 1): Promise<PurchaseResponse> => {
   try {
-    const response = await fetch(`${apiConfig.API_URL}/api/purchases`, {
+    const response = await fetch(`${process.env.REACT_APP_API_URL}/api/purchases`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -1,11 +1,10 @@
-import apiConfig from "../config/api.config.ts";
 
 export const getCornBoughtQuantity = async (
   clientUuId: string
 ): Promise<number> => {
   try {
     const response = await fetch(
-      `${apiConfig.API_URL}/api/purchases/client/${clientUuId}`
+      `${process.env.REACT_APP_API_URL}/api/purchases/client/${clientUuId}`
     );
     const data = await response.json();
 
